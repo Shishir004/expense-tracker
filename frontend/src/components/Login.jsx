@@ -22,7 +22,7 @@ const Login = ({ onLogin }) => {
     setError('');
     
     try {
-      const response = await axios.post('http://localhost:5000/api/auth/login', formData);
+      const response = await axios.post('https://expense-tracker-2-g8kd.onrender.com/api/auth/login', formData);
       localStorage.setItem('userToken', response.data.token);
       localStorage.setItem('userName', response.data.name);
       onLogin(response.data);

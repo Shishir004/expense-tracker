@@ -30,7 +30,7 @@ const Register = ({ onRegister }) => {
     setError('');
     
     try {
-      const response = await axios.post('http://localhost:5000/api/auth/register', {
+      const response = await axios.post('https://expense-tracker-2-g8kd.onrender.com', {
         name: formData.name,
         email: formData.email,
         password: formData.password
