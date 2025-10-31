@@ -6,7 +6,7 @@ import ExpenseSummary from './components/ExpenseSummary';
 import Login from './components/Login';
 import Register from './components/Register';
 
-const API_URL = 'https://expense-tracker-2-g8kd.onrender.com';
+const API_URL = 'https://expense-tracker-2-g8kd.onrender.com/api/expenses';;
 
 function App() {
   const [expenses, setExpenses] = useState([]);
