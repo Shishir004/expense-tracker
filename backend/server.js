@@ -13,7 +13,7 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:5173', // local dev
-    'https://your-frontend-name.onrender.com' // deployed frontend URL
+    'https://expense-tracker-dusky-eight-60.vercel.app/' // deployed frontend URL
   ],
   credentials: true,
 }));
